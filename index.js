@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
-  updateDOM()
+  theDomHasLoaded()
 });
  
-function updateDOM() {
+function theDomHasLoaded() {
   document.getElementById( "text" )
     .innerHTML = "This is really cool!";
 }
